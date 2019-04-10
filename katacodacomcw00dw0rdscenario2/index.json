@@ -24,7 +24,9 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "showdaschboard": true,
+    "dashboards": [{"name": "Arango", "port": 8529}],
+    "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "docker"
